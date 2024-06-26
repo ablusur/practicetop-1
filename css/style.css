@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  height: 500px;
+  width: 100%;
+  background-color: gray;
+}
+#about {
+  height: 500px;
+  width: 100%;
+  background-color: yellow;
+}
+#service {
+  height: 500px;
+  width: 100%;
+  background-color: teal;
+}
+#footer {
+  height: 500px;
+  width: 100%;
+  background-color: green;
+}
+.top {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  font-size: 14px;
+  font-weight: 500;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+.main {
+  background-color: green;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+body ul {
+  text-align: center;
+}
+body ul li {
+  display: inline-block;
+}
+body ul li a {
+  padding: 0 20px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body ul li a:hover {
+  color: blue;
+  transition: 0.8s;
+}
